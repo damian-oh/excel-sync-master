@@ -1,0 +1,25 @@
+# Python environments and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Excel temporary and lock files
+# (Crucial for scripts interacting with live Excel files)
+~$*.xlsx
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# Log files (if you decide to add background logging later)
+*.log
